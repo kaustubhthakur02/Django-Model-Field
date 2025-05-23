@@ -18,8 +18,8 @@ class Product(models.Model):
     price = models.DecimalField(
         max_digits=10,
         decimal_places=2,
-        verbose_name="Price (USD)",
-        help_text="Retail price in US dollars. Do not include currency symbol."
+        verbose_name="Price (Rupees)",
+        help_text="Retail price in Indian Currency. Do not include currency symbol."
     )
     
     weight = models.DecimalField(
